@@ -1,0 +1,5 @@
+f=open('abc.txt',mode='r')
+data=f.read(10)
+print(data)
+f.close()
+print(type(data),data)
